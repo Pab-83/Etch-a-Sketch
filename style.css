@@ -3,18 +3,22 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 10px;
+}
+
+.h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 550px;
-    width: 550px;
-    flex: 1;
+    display: grid;
+    width: 50%;
+    border: 1px solid black;
 }
 
 .cell {
-    border-style: dotted;
 }
 
 .resize {
